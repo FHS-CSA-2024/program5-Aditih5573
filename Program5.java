@@ -10,8 +10,7 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
-class HelloWorld {
-    public static void main(String[] args) {
+public static void main(String[] args) {
         System.out.println("Try programiz.pro");
         
         // Miles driven by each vehicle
@@ -28,15 +27,19 @@ class HelloWorld {
         
         // Calculate average miles per gallon
         double royaleAverage = (double) royalemMiles / royaleGallons;
-        System.out.println("Royale averaged " + Math.round(royaleAverage * 10.0) / 10.0 + " m/g"); 
+        double royaleRound = Math.round(royaleAverage * 10.0) / 10.0;
+        System.out.println("Royale averaged " + royaleRound + " m/g"); 
         
         double koopaAverage = (double) koopaMiles / koopaGallons;
-        System.out.println("Koopa averaged " + Math.round(koopaAverage * 10.0) / 10.0 + " m/g"); 
+        double koopaRound = Math.round(koopaAverage * 10.0) / 10.0;
+        System.out.println("Koopa averaged " + koopaRound + " m/g"); 
         
         double pipeAverage = (double) pipeMiles / pipeGallons;
-        System.out.println("Pipe averaged " + Math.round(pipeAverage * 10.0) / 10.0 + " m/g");
+        double pipeRound = Math.round(pipeAverage * 10.0) / 10.0;
+        System.out.println("Pipe averaged " + pipeRound + " m/g");
         
         double badwagonAverage = (double) badwagonMiles / badwagonGallons;
-        System.out.println("Badwagon averaged " + Math.round(badwagonAverage * 10.0) / 10.0 + " m/g");
+        double badWagonRound = Math.round(badwagonAverage * 10.0) / 10.0;
+        System.out.println("Badwagon averaged " + badWagonRound + " m/g");
     }
 }
