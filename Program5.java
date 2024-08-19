@@ -11,7 +11,7 @@
 // Use this editor to write, compile and run your Java code online
 
 public static void main(String[] args) {
-        System.out.println("Try programiz.pro");
+
         
         // Miles driven by each vehicle
         int royalemMiles = 286;
