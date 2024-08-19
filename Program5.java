@@ -24,6 +24,7 @@ public static void main(String[] args) {
         int koopaGallons = 40;
         int pipeGallons = 18;
         int badwagonGallons = 11;
+        System.out.println("Mushroom Cup Prix Racer Average Miles/Per Gallon:");
         
         // Calculate average miles per gallon
         double royaleAverage = (double) royalemMiles / royaleGallons;
