@@ -1,14 +1,3 @@
-//import stuff here?
-
-//Your code here
-
-//Paste console output below:
-/*
-
-
-*/
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
 public class MilesAverage {
 public static void main(String[] args) {
 
@@ -33,11 +22,11 @@ public static void main(String[] args) {
         
         double koopaAverage = (double) koopaMiles / koopaGallons;
         double koopaRound = Math.round(koopaAverage * 10.0) / 10.0;
-        System.out.println("Koopa averaged " + koopaRound + " m/g"); 
+        System.out.println("Koopa King averaged " + koopaRound + " m/g"); 
         
         double pipeAverage = (double) pipeMiles / pipeGallons;
         double pipeRound = Math.round(pipeAverage * 10.0) / 10.0;
-        System.out.println("Pipe averaged " + pipeRound + " m/g");
+        System.out.println("Pipe Frame averaged " + pipeRound + " m/g");
         
         double badwagonAverage = (double) badwagonMiles / badwagonGallons;
         double badWagonRound = Math.round(badwagonAverage * 10.0) / 10.0;
